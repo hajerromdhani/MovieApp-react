@@ -1,0 +1,291 @@
+
+body{
+  margin-left:200px;
+  margin-right:200px;
+}
+*{
+  font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.navbar {
+    position: fixed;
+    width: 80%;
+    background: white;
+    margin: auto;
+    top: 0;
+    height: 15%;
+}
+main {
+      margin-top: 150px;
+}
+.logo-docplanner{
+      margin-top: 10px;
+}
+header{
+  display:flex;
+  justify-content:space-between;
+      z-index: 5;
+}
+.logo-docplanner{
+  background-image:url("https://www.docplanner.com/img/logo-default-group-en.svg?v=1");
+  background-size:contain;
+  background-repeat:no-repeat;
+  height:100px;
+  width:30%;
+}
+.nav1 {
+  width:40%;
+  height:100px;
+}
+li{
+  display:inline;
+  font-size:20px;
+  padding:5px;
+}
+.li-text-one{
+ color:#00b39b;
+}
+.li-text-two {
+  color:#ababab;
+}
+.li-text-three{
+   color:#ababab;
+}
+.li-text-two:hover{
+  color:#00b39b;
+}
+.li-text-three:hover{
+   color:#00b39b;
+}
+.section-one{
+  display:flex;
+  flex-direction:column;
+}
+.lead-logo{
+  background-image:url("https://www.docplanner.com/img/sygnet.png" );
+  background-repeat:no-repeat;
+  display:block;
+  width:50px;
+  height:50px;
+  margin-right:auto;
+  margin-left:auto;
+}
+.section-one h1{
+  margin-right:auto;
+  margin-left:auto;
+  color:#00b39b;
+  font-size:2.125rem;;
+}
+.text{
+  display:flex;
+  color:#747474;
+  font-size:16px;
+  margin:20px;
+}
+.text p{
+    line-height: 1.75;
+}
+.col{
+  width:50%;
+  margin:15px;
+}
+.section-two{
+  display:flex;
+  flex-direction:row;
+}
+.div-text1{
+  background-color:#00ccb1;
+  margin:20px;
+  border-radius:15px;
+  padding-top:5px;
+  padding-left:30px;
+  width:50%; 
+}
+.image-patient{
+  background-image:url("https://www.docplanner.com/img/screen-marketplace@2x.png");
+  background-repeat:no-repeat;
+  width:90%;
+  height:400px;
+}
+.div-text2{
+  background-color:#3d83df;
+  margin:20px;
+  border-radius:15px;
+  padding-top:5px;
+  padding-left:30px;
+  width:50%;
+  overflow:hidden;
+}
+.div-text1 h2{
+  color: hsla(0,0%,100%,.7);
+}
+.div-text2 h2{
+ color: hsla(0,0%,100%,.7);
+}
+.div-text1 h1{
+  color: white;
+}
+.div-text2 h1{
+  color: white;
+}
+.image2-patient{
+  background-image:url("https://www.docplanner.com/img/screen-saas@2x.png");
+  background-repeat:no-repeat;
+  width:100%;
+  height:400px;
+  margin-left:35%;
+}
+.choose-country{
+  display:flex;
+}
+.choose-country select{
+    width: 50%;
+    background: white;
+    border-radius: 5px;
+    padding: 0 1em 0 1em;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.section-three{
+  display:flex;
+  align-items:baseline;
+}
+.div1-section-three h1{
+  color:#00b39b;
+  font-size:30px;
+}
+.div1-section-three{
+  display:flex;
+  width:30%;
+}
+.div2-section-three{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  padding:20px;
+  margin:20px;
+}
+.div2-section-three a svg{
+  height:20px;
+}
+svg{
+   fill:gray;
+}
+svg:hover{
+  fill:#00b39b;
+}
+.section-for{
+  background-color:#e5faf8;
+  display:flex;
+}
+.div1-section-for{
+  padding:10px;
+   width:50%;
+}
+.div1-section-for h1{
+  font-size:2.125rem;
+  color:#00b39b;
+}
+.div1-section-for p{
+  color: #747474;
+}
+.div2-section-for{
+   display:flex;
+   flex-wrap:wrap;
+   width:50%;
+}
+.div-stats{
+    background-color:white;
+    display: table-cell;
+    position: relative;
+    border-radius: 5px;
+    height:200px;
+    width:30%;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+    margin:20px;
+}
+.one{
+  margin-top:70px;
+}
+.two{
+  margin-top:43px;
+}
+.three{
+  margin-top:-53px;
+}
+.for{
+  margin-top:-80px;
+}
+.div-stats h2{
+    color: #00b39b;
+}
+.div-stats p{
+    color: #747474;
+}
+.section-five h1{
+  color: #00b39b;
+  font-size: 2.14em;
+  text-align:center;
+  font-weight: 300;
+}
+.section-five p{
+    color: #747474;
+    font-size: .875em;
+    text-align: center;
+    font-weight:400;
+    padding-left:300px;
+    padding-right:300px;
+}
+.article{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+.article-div{
+  display:flex;
+  margin:20px;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+  color: #747474;
+  font-size:20px;
+  cursor: pointer;
+}
+.mini-article:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.mini-article{
+  margin:20px;
+}
+.button{
+    width: 120px;
+    background-color: #1662c6;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+ a{
+  color:#3d83df;
+  text-decoration:none;
+}
+footer p{
+  font-size:14px;
+ color:#ababab;
+ text-align:center;
+}
+svg:link{
+  color:#ababab;
+}
+.div2-section-for{
+}
+.div-stats one{
+ margin-top:40px;
+}
